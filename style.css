@@ -207,12 +207,75 @@ body{
     border-radius: 50%; 
 }
 
+/*---------------------------------- Create Plan section---------------------------------*/
+.plan-headings{
+    background: url(assets/images/pricing-bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 350px; 
+}
+.plan-headings h2{
+    font-size: 1.9em; 
+}
 
 
+.detail-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+    width: 340px; 
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
+.detail-box hr{
+    width: 200px; 
+    border: 1px solid grey; 
+}
+.detail{
+    text-align: center;
+}
+.detail h3{
+    margin:40px 0;
+    font-size: 1.3em;
+}
+.detail div{
+    margin: auto; 
+    width: 70%;
+    height: 120px;
+    background: #00BCD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px; 
+}
+.detail div span{
+    font-size: 1.6em; 
+}
 
+.detail-2{
+    text-align: left;
+    padding-bottom: 45px; 
+}
+.detail p span {
+    color: blue; 
+    margin-right: 20px; 
+}
 
-
-
+.detail-box a{
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #23A8F2;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(20px) ;
+}
 
 
 
