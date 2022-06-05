@@ -220,7 +220,7 @@ body{
 /* For mobile:  */
 @media only screen and (max-width:767px){
     .fixed-width{
-        width: 100%;
+        width: 95%;
         margin: auto;
     }
     /* header menu bar  */
