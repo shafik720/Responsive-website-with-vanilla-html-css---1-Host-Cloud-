@@ -128,7 +128,9 @@ body{
     background: #00BCD4;
     padding: 13px 20px; 
     margin-left: 15px; 
+    text-transform: uppercase;
 }
+
 
 
 .search-catagory label{
@@ -165,6 +167,40 @@ body{
     .sign-button a:first-child{
         margin-right: 0px; 
         transition: 0.8s;
+    }
+
+    /* Banner  */
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .banner-container h2{
+        color: white;
+        font-size: 2em ;
+    }
+    .banner-container .search-box form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .banner-container .search-box .inputBox input{
+        width: 300px; 
+        background: transparent;
+        outline: none;
+        font-size: 20px;
+        padding: 10px 20px; 
+        border: 1px solid white; 
+        position: relative; 
+        margin-bottom: 20px; 
+    }
+    .search-catagory form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px; 
     }
 }
 
