@@ -131,7 +131,12 @@ body{
 }
 
 
-
+.search-catagory label{
+    color: white;
+}
+.search-catagory label span{
+    font-size: 1.2em; 
+}
 
 
 
