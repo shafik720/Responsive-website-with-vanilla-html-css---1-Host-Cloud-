@@ -69,9 +69,50 @@ body{
 .sign-button a:last-child:hover{
     background: #E33D30;
 }
+/*------- menu bar done  ---------*/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------ media query  ------------------------------------*/
+/* For mobile:  */
+@media only screen and (max-width:767px){
+    .menu-container{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;  
+        margin: auto;
+    }
+    .right-menu .menu-items ul{
+        display: none; 
+    }
+    .sign-button{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px; 
+    }
+    .sign-button a:first-child{
+        margin-right: 0px; 
+        transition: 0.8s;
+    }
+}
+
+/* For tablet:  */
+@media only screen and (min-width:768px) and (max-width:991px) {}
 
 
 
