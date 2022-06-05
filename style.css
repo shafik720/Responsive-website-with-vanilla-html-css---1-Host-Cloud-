@@ -1,0 +1,83 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+/*---------------------------------- header-menu ---------------------------------*/
+.container{
+    background: url(assets/images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+}
+.left-menu h2{
+    color: white;
+    font-size: 2em; 
+    font-weight: 600; 
+} 
+.left-menu h2 span{ 
+    font-size: 18px; 
+}
+
+.right-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-menu .menu-items ul{
+    display: flex;
+}
+.right-menu .menu-items ul li{
+    list-style: none;
+    margin-right: 60px; 
+}
+.right-menu .menu-items ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;  
+}
+.right-menu .menu-items ul li a:hover{
+    color: blue;
+}
+
+.sign-button a{
+    text-decoration: none;
+    color: white; 
+    display: inline-block;
+    border: 2px solid white; 
+    padding: 5px 25px;  
+}
+.sign-button a:first-child{
+    margin-right: 20px; 
+    transition: 0.8s;
+}
+.sign-button a:first-child:hover{
+    background: white;
+    color: blue; 
+}
+.sign-button a:last-child{
+    background: #00BCD4 ; 
+    transition: 0.8s; 
+}
+.sign-button a:last-child:hover{
+    background: #E33D30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
