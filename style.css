@@ -208,6 +208,9 @@ body{
 }
 
 /*---------------------------------- Create Plan section---------------------------------*/
+.plan-section{
+    position: relative;
+}
 .plan-headings{
     background: url(assets/images/pricing-bg.jpg)no-repeat;
     background-size: cover;
@@ -216,11 +219,19 @@ body{
     text-align: center;
     padding-top: 70px;
     padding-bottom: 350px; 
+    position: relative;
 }
 .plan-headings h2{
     font-size: 1.9em; 
 }
 
+.plan-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: absolute;
+    top: 350px; 
+    left: 130px;
+}
 
 .detail-box{
     position: relative;
@@ -231,6 +242,7 @@ body{
     margin: 10px; 
     width: 340px; 
     box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+    background: white;
 }
 .detail-box hr{
     width: 200px; 
@@ -276,6 +288,9 @@ body{
     bottom: 0;
     transform: translateY(20px) ;
 }
+
+
+
 
 
 
