@@ -10,6 +10,7 @@ body{
 .container{
     background: url(assets/images/banner-bg.jpg) no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 .menu-container{
     display: flex;
@@ -129,6 +130,7 @@ body{
     padding: 13px 20px; 
     margin-left: 15px; 
     text-transform: uppercase;
+    transition: 0.5s; 
 }
 
 
