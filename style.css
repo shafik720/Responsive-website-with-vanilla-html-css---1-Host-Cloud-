@@ -86,16 +86,25 @@ body{
     color: white;
     font-size: 3em ;
 }
+.banner-container .search-box{
+    margin-bottom: 30px; 
+}
+.banner-container .search-box form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner-container .search-box .inputBox{
     position: relative;
 }
 .banner-container .search-box .inputBox input{
-    width: 100%;
+    width: 500px; 
     background: transparent;
     outline: none;
     font-size: 20px;
     padding: 10px 20px; 
     border: 1px solid white; 
+    position: relative; 
 }
 .banner-container .search-box .inputBox input:focus ~ span{
     transform: translateY(-12px) translateX(9px);
@@ -113,7 +122,13 @@ body{
     pointer-events: none;
     transition: 0.5s; 
 }
-
+.search-box a{
+    text-decoration: none;
+    color: white;
+    background: #00BCD4;
+    padding: 13px 20px; 
+    margin-left: 15px; 
+}
 
 
 
