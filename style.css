@@ -185,8 +185,10 @@ body{
 }
 
 .service-details{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .service-box{
     background: #F7F7F7;
@@ -198,6 +200,7 @@ body{
     padding: 15px;
     border-radius: 10px; 
     text-align: center;
+    width: 320px; 
 }
 .service-box span{
     margin-top: 30px; 
@@ -370,10 +373,10 @@ body{
     }
 
     /* service-section */
-    .service-details{
+    /* .service-details{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-    }
+    } */
 
     /* Plan Purchase Section  */
     
@@ -455,10 +458,10 @@ body{
     }
 
     /* service-section */
-    .service-details{
+    /* .service-details{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-    }
+    } */
 
     /* Plan Purchase Section  */
     
