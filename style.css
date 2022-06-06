@@ -376,9 +376,7 @@ body{
     }
 
     /* Plan Purchase Section  */
-    .plan-section{
-        display: none; 
-    }
+    
     .plan-headings{
         background: url(assets/images/pricing-bg.jpg)no-repeat;
         background-size: cover;
