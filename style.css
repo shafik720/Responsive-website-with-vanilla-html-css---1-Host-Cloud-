@@ -225,12 +225,15 @@ body{
     font-size: 1.9em; 
 }
 
+.plan-details-container{
+    position: relative;
+}
 .plan-details{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     position: absolute;
-    top: 350px; 
-    left: 130px;
+    top: 0;
+    transform: translateY(-160px) ; 
 }
 
 .detail-box{
@@ -241,7 +244,7 @@ body{
     align-items: center;
     margin: 10px; 
     width: 340px; 
-    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.5);
     background: white;
 }
 .detail-box hr{
@@ -371,6 +374,52 @@ body{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+
+    /* Plan Purchase Section  */
+    .plan-section{
+        display: none; 
+    }
+    .plan-headings{
+        background: url(assets/images/pricing-bg.jpg)no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: white;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 350px; 
+        position: relative;
+    }
+    .plan-headings h2{
+        font-size: 1.5em; 
+    }
+    .plan-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 850px; 
+        left: 0;
+        bottom: 0;
+        right: 0; 
+        width: 100%; 
+    }
+    .detail-box{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px; 
+        width: 90%; 
+        box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+        background: white;
+    }
+    .detail-box hr{
+        width: 60%;  
+        border: 1px solid grey; 
+    }
+
 }
 
 /* For tablet:  */
