@@ -9,7 +9,9 @@ body{
     width: 1100px;
     margin: auto;
 }
-
+.clear{
+    clear: both;
+}
 /*---------------------------------- Header-menu ---------------------------------*/
 .container{
     background: url(assets/images/banner-bg.jpg) no-repeat;
@@ -272,6 +274,28 @@ body{
     color: white;
     margin-bottom: 40px; 
 }
+.detail .mid-plan{
+    margin: auto; 
+    width: 70%;
+    height: 120px;
+    background: #354F52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px; 
+}
+.detail .last-plan{
+    margin: auto; 
+    width: 70%;
+    height: 120px;
+    background: #6C464E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+}
 .detail div span{
     font-size: 1.6em; 
 }
@@ -294,6 +318,56 @@ body{
     bottom: 0;
     transform: translateY(20px) ;
 }
+.detail-box .mid-plan-anchor{
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #354F52;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(20px) ;
+}
+.detail-box .last-plan-anchor{
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #6C464E;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(20px) ;
+}
+
+/*---------------------------------- Features section---------------------------------*/
+.feature-section{
+    position: relative;
+    top: 600px; 
+}
+.feature{
+    text-align: center;
+}
+.feature h3{
+    color: #00BCD4;
+}
+.feature h1{
+    font-size: 2em; 
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-details{
+    margin: 20px;
+    padding: 0px 20px;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px; 
+}
+
+
 
 
 
@@ -421,6 +495,16 @@ body{
         border: 1px solid grey; 
     }
 
+    /* feature section  */
+    .feature-section{
+        position: relative;
+        top: 1800px; 
+    }
+    .features{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 /* For tablet:  */
@@ -503,6 +587,15 @@ body{
     .detail-box hr{
         width: 60%;  
         border: 1px solid grey; 
+    }
+    /* feature section  */
+    .feature-section{
+        position: relative;
+        top: 1250px; 
+    }
+    .features{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
