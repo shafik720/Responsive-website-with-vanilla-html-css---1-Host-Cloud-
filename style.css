@@ -367,7 +367,60 @@ body{
     column-gap: 25px; 
 }
 
-
+/*---------------------------------- Feedback section---------------------------------*/
+.feedback-section{
+    position: relative;
+    top: 700px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.feedback-headings h3{
+    color: #00BEDD;
+}
+.feedback-headings h1{
+    font-size: 2em; 
+}
+.feedback-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 25px; 
+    margin-top: 40px; 
+}
+.feedback-details span{
+    width: 70px;
+    height: 70px;
+    background: #4A3FDF;
+    color: white;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em; 
+}
+.feedback-details q{
+    font-style: italic;
+    font-size: 1.5em; 
+    color: rgb(129, 129, 129); 
+}
+.feedback-details h3{
+    color: #00BCD4;
+    margin-top: -10px; 
+}
+.feedback-details div{
+    width: 150px;
+    height: 150px;
+    border: 10px solid navy;
+    overflow: hidden;
+    border-radius: 50%; 
+}
+.feedback-details div img{
+    width: 100%;
+}
 
 
 
@@ -505,9 +558,19 @@ body{
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* Feedback Details */
+    .feedback-section{
+        position: relative;
+        top: 1900px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 
-/* For tablet:  */
+/*-------------------------- For tablet:  -----------------------------*/
 @media only screen and (min-width:768px) and (max-width:991px) {
     .fixed-width{
         width: 100%;
